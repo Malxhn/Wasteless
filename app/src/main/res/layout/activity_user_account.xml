@@ -16,7 +16,7 @@
         app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/userlogo" />
+        app:srcCompat="@drawable/usernewnn" />
 
     <Button
         android:id="@+id/logout_btn"
@@ -38,6 +38,7 @@
         android:layout_width="225dp"
         android:layout_height="55dp"
         android:layout_marginTop="40dp"
+        android:onClick="openprof"
         android:text="Edit Profile"
         android:textSize="18sp"
         app:backgroundTint="@android:color/holo_orange_dark"
@@ -50,6 +51,7 @@
         android:layout_width="225dp"
         android:layout_height="55dp"
         android:layout_marginTop="10dp"
+        android:onClick="openhome"
         android:text="Home"
         android:textSize="18sp"
         app:backgroundTint="@android:color/holo_orange_dark"
@@ -75,6 +77,7 @@
         android:layout_width="225dp"
         android:layout_height="55dp"
         android:layout_marginTop="10dp"
+        android:onClick="viewofferitemlist"
         android:text="My Offers"
         android:textSize="18sp"
         app:backgroundTint="@android:color/holo_orange_dark"
@@ -88,6 +91,7 @@
         android:layout_width="225dp"
         android:layout_height="55dp"
         android:layout_marginTop="10dp"
+        android:onClick="opencate"
         android:text="Category"
         android:textSize="18sp"
         app:backgroundTint="@android:color/holo_orange_dark"
