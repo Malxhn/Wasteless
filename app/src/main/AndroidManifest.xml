@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.WASTELESS">
         <activity
+
+            android:name=".UserProfileActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ProfileDetails"
+            android:exported="true" />
+        <activity
+            android:name=".Allcategories"
+
             android:name=".OfferItemlistActivity"
             android:exported="true" />
         <activity
@@ -32,6 +41,7 @@
             android:exported="true" />
         <activity
             android:name=".test"
+
             android:exported="true" />
         <activity
             android:name=".MainActivity"

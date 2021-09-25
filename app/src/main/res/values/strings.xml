@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">WASTELESS</string>
+    <string name="btn_updetails">UPDATE</string>
 </resources>
