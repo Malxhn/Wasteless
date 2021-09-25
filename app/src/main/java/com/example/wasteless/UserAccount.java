@@ -36,12 +36,26 @@ public class UserAccount extends AppCompatActivity {
             }
         });
 
-        btn_Home.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(UserAccount.this, Home.class));
-            }
-        });
 
+
+    }
+    public void openhome(View view){
+        Intent intent = new Intent (this,Home.class);
+        startActivity(intent);
+    }
+
+    public void openprof(View view){
+        Intent intent = new Intent (this,ProfileDetails.class);
+        startActivity(intent);
+    }
+
+    public void opencate(View view){
+        Intent intent = new Intent (this,Allcategories.class);
+        startActivity(intent);
+    }
+
+    public void viewofferitemlist(View view) {
+        Intent intent = new Intent (this,OfferItemlistActivity.class);
+        startActivity(intent);
     }
 }

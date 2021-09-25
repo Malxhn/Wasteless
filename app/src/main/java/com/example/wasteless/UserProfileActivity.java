@@ -119,6 +119,7 @@ public class UserProfileActivity extends AppCompatActivity {
         }
     }
     public void openuseraccount(View view){
-
+        Intent intent = new Intent (this,UserAccount.class);
+        startActivity(intent);
     }
 }
