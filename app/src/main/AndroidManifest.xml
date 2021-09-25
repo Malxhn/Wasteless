@@ -10,6 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.WASTELESS">
         <activity
+
             android:name=".UserProfileActivity"
             android:exported="true" />
         <activity
@@ -17,6 +18,30 @@
             android:exported="true" />
         <activity
             android:name=".Allcategories"
+
+            android:name=".OfferItemlistActivity"
+            android:exported="true" />
+        <activity
+            android:name=".OfferItemDetailsActivity"
+            android:exported="true" />
+        <activity
+            android:name=".NewOfferActivity"
+            android:exported="true" />
+        <activity
+            android:name=".UserAccount"
+            android:exported="true" />
+        <activity
+            android:name=".RegisterUserActivity"
+            android:exported="true" />
+        <activity
+            android:name=".OfferDetailActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Home"
+            android:exported="true" />
+        <activity
+            android:name=".test"
+
             android:exported="true" />
         <activity
             android:name=".MainActivity"
