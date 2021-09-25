@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="offer_categories">
+        <item>Dry Food</item>
+        <item>Cooked Food</item>
+        <item>Clothes</item>
+        <item>Stationery</item>
+    </string-array>
+</resources>
