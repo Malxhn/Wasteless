@@ -18,7 +18,8 @@
             android:exported="true" />
         <activity
             android:name=".Allcategories"
-
+                   android:exported="true" />
+                <activity
             android:name=".OfferItemlistActivity"
             android:exported="true" />
         <activity
