@@ -1,3 +1,21 @@
 <resources>
     <string name="app_name">WASTELESS</string>
+    <string name="offereditem">Enter offered item name</string>
+    <string name="noofservings">Enter the no of servings</string>
+    <string name="address">Enter address</string>
+    <string name="pickupstarting">"pickup starting date and time "</string>
+    <string name="pickupending">pickup ending date and time</string>
+    <string name="description">Enter item description</string>
+    <string name="FoodOffers">Food Offers</string>
+    <string name="Electronics">Electronics and Other Offers</string>
+    <string name="Stationery">Stationery Offers</string>
+    <string name="Cloth">Cloth Offers</string>
+    <string name="ADDOFFER">ADD OFFER</string>
+    <string name="CHOOSEIMAGE">CHOOSE IMAGE</string>
+    <array name="categories">
+        <item>Food</item>
+        <item>Clothes</item>
+        <item>Stationary</item>
+        <item>Electronics and Other</item>
+    </array>
 </resources>
