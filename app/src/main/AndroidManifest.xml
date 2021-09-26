@@ -9,6 +9,33 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.WASTELESS">
+       <activity
+            android:name=".stationarylist"
+            android:exported="true" />
+        <activity
+            android:name=".foodlist"
+            android:exported="true" />
+        <activity
+            android:name=".electronicslist"
+            android:exported="true" />
+        <activity
+            android:name=".clotheslist"
+            android:exported="true" />
+        <activity
+            android:name=".AddOffers"
+            android:exported="true" />
+        <activity
+            android:name=".MessagesNoti"
+            android:exported="true" />
+        <activity
+            android:name=".UserProfileActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ProfileDetails"
+            android:exported="true" />
+        <activity
+            android:name=".Allcategories"
+            android:exported="true" />
         <activity
             android:name=".OfferItemlistActivity"
             android:exported="true" />

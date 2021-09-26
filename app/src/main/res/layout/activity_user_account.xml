@@ -4,19 +4,20 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/hands2bk"
     tools:context=".UserAccount">
 
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="222dp"
-        android:layout_height="195dp"
-        android:layout_marginTop="60dp"
+        android:layout_width="220dp"
+        android:layout_height="181dp"
+        android:layout_marginTop="56dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/userlogo" />
+        app:srcCompat="@drawable/ic_baseline_account_circle_24" />
 
     <Button
         android:id="@+id/logout_btn"
@@ -28,7 +29,7 @@
         android:text="Logout"
         android:textColor="@color/white"
         android:textSize="18sp"
-        app:backgroundTint="@android:color/holo_orange_dark"
+        app:backgroundTint="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -38,6 +39,7 @@
         android:layout_width="225dp"
         android:layout_height="55dp"
         android:layout_marginTop="40dp"
+        android:onClick="openprof"
         android:text="Edit Profile"
         android:textSize="18sp"
         app:backgroundTint="@android:color/holo_orange_dark"
@@ -50,6 +52,7 @@
         android:layout_width="225dp"
         android:layout_height="55dp"
         android:layout_marginTop="10dp"
+        android:onClick="openhome"
         android:text="Home"
         android:textSize="18sp"
         app:backgroundTint="@android:color/holo_orange_dark"
@@ -75,6 +78,7 @@
         android:layout_width="225dp"
         android:layout_height="55dp"
         android:layout_marginTop="10dp"
+        android:onClick="viewofferitemlist"
         android:text="My Offers"
         android:textSize="18sp"
         app:backgroundTint="@android:color/holo_orange_dark"
@@ -88,6 +92,7 @@
         android:layout_width="225dp"
         android:layout_height="55dp"
         android:layout_marginTop="10dp"
+        android:onClick="opencate"
         android:text="Category"
         android:textSize="18sp"
         app:backgroundTint="@android:color/holo_orange_dark"
@@ -98,13 +103,13 @@
 
     <TextView
         android:id="@+id/textView6"
-        android:layout_width="174dp"
-        android:layout_height="31dp"
+        android:layout_width="185dp"
+        android:layout_height="42dp"
         android:layout_marginTop="15dp"
         android:paddingLeft="5dp"
         android:text="USER PROFILE"
         android:textColor="@color/black"
-        android:textSize="24sp"
+        android:textSize="26sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"

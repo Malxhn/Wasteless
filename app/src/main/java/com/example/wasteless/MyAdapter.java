@@ -12,6 +12,8 @@ import androidx.annotation.NonNull;
 import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.squareup.picasso.Picasso;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -43,6 +45,11 @@ public class MyAdapter extends RecyclerView.Adapter<OfferHolder> {
         //  holder.img_offerimage.setImageResource(ourOfferList.get(position).getItemImage());
         holder.txt_offertitle.setText(ourOfferList.get(position).getOfferName());
         holder.txt_offerdescription.setText(ourOfferList.get(position).getDescription());
+
+        //OfferItem off= ourOfferList.get(position);
+        //Picasso.get().load(off.getmImageUrl()).fit().centerCrop().into(holder.img_offerimage);
+        //holder.txt_offertitle.setText(off.getOfferName());
+        //holder.txt_offerdescription.setText(off.getDescription());
 
         holder.cardview_itemcard.setOnClickListener(new View.OnClickListener() {
             @Override
