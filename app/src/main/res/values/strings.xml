@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">WASTELESS</string>
+
     <string name="offereditem">Enter offered item name</string>
     <string name="noofservings">Enter the no of servings</string>
     <string name="address">Enter address</string>
@@ -18,4 +19,7 @@
         <item>Stationary</item>
         <item>Electronics and Other</item>
     </array>
+
+    <string name="btn_updetails">UPDATE</string>
+
 </resources>

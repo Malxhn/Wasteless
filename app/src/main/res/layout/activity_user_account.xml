@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserAccount">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="222dp"
+        android:layout_height="195dp"
+        android:layout_marginTop="60dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/usernewnn" />
+
+    <Button
+        android:id="@+id/logout_btn"
+        android:layout_width="225dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="624dp"
+        android:background="@color/black"
+        android:backgroundTint="@android:color/holo_blue_bright"
+        android:text="Logout"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:backgroundTint="@android:color/holo_orange_dark"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="225dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="40dp"
+        android:onClick="openprof"
+        android:text="Edit Profile"
+        android:textSize="18sp"
+        app:backgroundTint="@android:color/holo_orange_dark"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <Button
+        android:id="@+id/btnHome"
+        android:layout_width="225dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="10dp"
+        android:onClick="openhome"
+        android:text="Home"
+        android:textSize="18sp"
+        app:backgroundTint="@android:color/holo_orange_dark"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button2" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="225dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="10dp"
+        android:text="Notifications"
+        android:textSize="18sp"
+        app:backgroundTint="@android:color/holo_orange_dark"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnHome" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="225dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="10dp"
+        android:onClick="viewofferitemlist"
+        android:text="My Offers"
+        android:textSize="18sp"
+        app:backgroundTint="@android:color/holo_orange_dark"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button5" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="225dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="10dp"
+        android:onClick="opencate"
+        android:text="Category"
+        android:textSize="18sp"
+        app:backgroundTint="@android:color/holo_orange_dark"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="174dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="15dp"
+        android:paddingLeft="5dp"
+        android:text="USER PROFILE"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

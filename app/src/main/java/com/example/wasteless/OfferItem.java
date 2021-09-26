@@ -1,6 +1,7 @@
 package com.example.wasteless;
 
 public class OfferItem {
+
     private String OfferName;
     private String Servings;
     private String Address;
@@ -46,6 +47,40 @@ public class OfferItem {
 
     public void setmImageUrl(String mImageUrl) {
         this.mImageUrl = mImageUrl;
+
+
+   
+    public OfferItem(String address, String category, String offerName, String pickUp_By, String pickUp_From, String servings, String description, String reqOfferName, String reqOfferEmail, String reqOfferPhone){
+        Address = address;
+        Category = category;
+        OfferName = offerName;
+        PickUp_By = pickUp_By;
+        PickUp_From = pickUp_From;
+        Servings = servings;
+        Description = description;
+        ReqOfferName = reqOfferName;
+        ReqOfferEmail = reqOfferEmail;
+        ReqOfferPhone = reqOfferPhone;
+    }
+
+    public OfferItem() {
+    }
+
+    public String getAddress() {
+        return Address;
+    }
+
+    public void setAddress(String address) {
+        Address = address;
+    }
+
+    public String getCategory() {
+        return Category;
+    }
+
+    public void setCategory(String category) {
+        Category = category;
+
     }
 
     public String getOfferName() {
@@ -53,6 +88,7 @@ public class OfferItem {
     }
 
     public void setOfferName(String offerName) {
+
         this.OfferName = offerName;
     }
 
@@ -64,21 +100,9 @@ public class OfferItem {
         this.Servings = servings;
     }
 
-    public String getAddress() {
-        return Address;
-    }
+    
 
-    public void setAddress(String address) {
-        this.Address = address;
-    }
-
-    public String getCategory() {
-        return Category;
-    }
-
-    public void setCategory(String category) {
-        this.Category = category;
-    }
+    
 
     public String getPickUp_From() {
         return PickUp_From;
@@ -104,17 +128,6 @@ public class OfferItem {
         this.Description = description;
     }
 
-    public OfferItem() {
-    }
+   
 
-    public OfferItem(String OfferName, String servings, String address, String category, String PickUp_From, String PickUp_By, String Description, String imageUrl) {
-        this.mImageUrl=imageUrl;
-        this.OfferName = OfferName;
-        this.Servings = servings;
-        this.Address = address;
-        this.Category = category;
-        this.PickUp_From = PickUp_From;
-        this.PickUp_By = PickUp_By;
-        this.Description = Description;
-    }
 }

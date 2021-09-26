@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home">
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="23dp"
+        android:background="@drawable/ic_baseline_menu_24_22"
+        android:maxWidth="48dp"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
+        android:onClick="openuseraccount"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+
+    <EditText
+        android:id="@+id/et_searchoffer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="15dp"
+        android:layout_toRightOf="@+id/imageButton"
+        android:background="@color/white"
+        android:hint="Search"
+        android:minHeight="48dp"
+        android:textSize="22sp"
+        />
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/recylerview_home"
+        android:scrollbars="vertical"
+        android:layout_below="@+id/et_searchoffer"></androidx.recyclerview.widget.RecyclerView>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="40dp"
+        android:src="@drawable/ic_baseline_add_24"
+        android:backgroundTint="@android:color/holo_orange_dark"
+        tools:ignore="SpeakableTextPresentCheck"
+        android:onClick="btn_addofferActivity"
+        />
+
+</RelativeLayout>
