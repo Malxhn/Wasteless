@@ -2,22 +2,50 @@ package com.example.wasteless;
 
 public class OfferItem {
 
-    private String Address, Category, OfferName,PickUp_By,PickUp_From,Servings,Description, ReqOfferName, ReqOfferEmail, ReqOfferPhone, mImageUrl;
+    private String OfferName;
+    private String Servings;
+    private String Address;
+    private String Category;
+    private String PickUp_From;
+    private String PickUp_By;
+    private String Description;
+    private String mImageUrl;
+    private String ReqOfferEmail;
+    private String ReqOfferName;
+    private String ReqOfferPhone;
 
-    public OfferItem(String address, String category, String offerName, String pickUp_By, String pickUp_From, String servings, String description, String reqOfferName, String reqOfferEmail, String reqOfferPhone){
+    public OfferItem(String offerName, String servings, String address, String category, String pickUp_From, String pickUp_By, String description, String mImageUrl, String reqOfferEmail, String reqOfferName, String reqOfferPhone) {
+        OfferName = offerName;
+        Servings = servings;
         Address = address;
         Category = category;
-        OfferName = offerName;
-        PickUp_By = pickUp_By;
         PickUp_From = pickUp_From;
-        Servings = servings;
+        PickUp_By = pickUp_By;
         Description = description;
-        ReqOfferName = reqOfferName;
+        this.mImageUrl = mImageUrl;
         ReqOfferEmail = reqOfferEmail;
+        ReqOfferName = reqOfferName;
         ReqOfferPhone = reqOfferPhone;
     }
 
     public OfferItem() {
+    }
+
+
+    public String getOfferName() {
+        return OfferName;
+    }
+
+    public void setOfferName(String offerName) {
+        OfferName = offerName;
+    }
+
+    public String getServings() {
+        return Servings;
+    }
+
+    public void setServings(String servings) {
+        Servings = servings;
     }
 
     public String getAddress() {
@@ -36,12 +64,12 @@ public class OfferItem {
         Category = category;
     }
 
-    public String getOfferName() {
-        return OfferName;
+    public String getPickUp_From() {
+        return PickUp_From;
     }
 
-    public void setOfferName(String offerName) {
-        OfferName = offerName;
+    public void setPickUp_From(String pickUp_From) {
+        PickUp_From = pickUp_From;
     }
 
     public String getPickUp_By() {
@@ -52,22 +80,6 @@ public class OfferItem {
         PickUp_By = pickUp_By;
     }
 
-    public String getPickUp_From() {
-        return PickUp_From;
-    }
-
-    public void setPickUp_From(String pickUp_From) {
-        PickUp_From = pickUp_From;
-    }
-
-    public String getServings() {
-        return Servings;
-    }
-
-    public void setServings(String servings) {
-        Servings = servings;
-    }
-
     public String getDescription() {
         return Description;
     }
@@ -76,12 +88,12 @@ public class OfferItem {
         Description = description;
     }
 
-    public String getReqOfferName() {
-        return ReqOfferName;
+    public String getmImageUrl() {
+        return mImageUrl;
     }
 
-    public void setReqOfferName(String reqOfferName) {
-        ReqOfferName = reqOfferName;
+    public void setmImageUrl(String mImageUrl) {
+        this.mImageUrl = mImageUrl;
     }
 
     public String getReqOfferEmail() {
@@ -90,6 +102,14 @@ public class OfferItem {
 
     public void setReqOfferEmail(String reqOfferEmail) {
         ReqOfferEmail = reqOfferEmail;
+    }
+
+    public String getReqOfferName() {
+        return ReqOfferName;
+    }
+
+    public void setReqOfferName(String reqOfferName) {
+        ReqOfferName = reqOfferName;
     }
 
     public String getReqOfferPhone() {

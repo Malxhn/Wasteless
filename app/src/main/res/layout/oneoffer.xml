@@ -23,10 +23,10 @@
             <ImageView
                 android:id="@+id/img_offerimage"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="172dp"
                 android:layout_weight="4"
                 android:scaleType="centerCrop"
-                app:srcCompat="@drawable/downloadfood" />
+                app:srcCompat="@drawable/img_offer" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -48,6 +48,7 @@
                         android:layout_height="wrap_content"
                         android:maxLines="2"
                         android:text="TextView"
+                        android:textColor="@color/black"
                         android:textSize="16sp"
                         android:textStyle="bold" />
 

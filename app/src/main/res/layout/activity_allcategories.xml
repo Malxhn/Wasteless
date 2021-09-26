@@ -167,13 +167,13 @@
                 android:background="@drawable/homeapp">
 
                 <Button
-                    android:layout_width="wrap_content"
-                    android:layout_height="50dp"
+                    android:layout_width="243dp"
+                    android:layout_height="wrap_content"
                     android:layout_marginStart="60dp"
                     android:layout_marginLeft="60dp"
                     android:layout_marginTop="75dp"
                     android:background="@color/white"
-                    android:text="Home Appliances"
+                    android:text="Electronics"
                     android:textColor="@color/black"
                     android:textSize="20sp"
                     android:textStyle="bold"
