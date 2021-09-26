@@ -1,3 +1,4 @@
+
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.wasteless">
@@ -9,6 +10,21 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.WASTELESS">
+       <activity
+            android:name=".stationarylist"
+            android:exported="true" />
+        <activity
+            android:name=".foodlist"
+            android:exported="true" />
+        <activity
+            android:name=".electronicslist"
+            android:exported="true" />
+        <activity
+            android:name=".clotheslist"
+            android:exported="true" />
+        <activity
+            android:name=".AddOffers"
+            android:exported="true" />
         <activity
             android:name=".MessagesNoti"
             android:exported="true" />
